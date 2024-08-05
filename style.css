@@ -1,0 +1,70 @@
+
+body{
+    background-color: black;
+    margin: 0;
+    color: white;
+    opacity: 0.9;
+}
+.img1{
+    width: 20px;
+    height: 20px;
+    padding:2px;
+}
+.hor_nav-bar{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+.hor_nav-bar a{
+    text-decoration: none;
+    padding:15px;
+    cursor: pointer;
+    color: white;
+}
+.hor_nav-bar a:hover
+{
+    color:blue;
+}
+
+
+
+.hor_nav-bar .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.hor_nav-bar .hamburger-menu div {
+    background-color:white;
+    height: 3px;
+    width: 100%;
+}
+
+heading2{
+    color: white;
+}
+.blue-greater-than{
+    color: blue;
+}
+
+.card1, .card2{
+
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-left: 3px;
+
+}
+.img2{
+    width: 200px;
+    margin-right:10px;
+}
+.img2:hover {
+    cursor: pointer;
+}
+
+
